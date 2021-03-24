@@ -1,37 +1,119 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CARD SELECTION</title>
+        <style>
+            body{
+                background: rgb(157, 60, 160);
+            }
+            .container{
+                width: 100%;
+                height: 100%;
+            }
+            .box{
+                margin: 40px;
+                display: flex;
+                position: relative;
+                flex-wrap: wrap;
+                align-items: center;
+                justify-content: center;
+            }
+            .box .card{
+                margin: 40px;
+                padding: 10px;
+                text-align: center;
+                width: 200px;
+                height: 320px;
+                background: #fff;
+                border-radius: 10px;
+                border: 5PX solid red;
+                border-inline: 3px solid rgb(255, 196, 0);
+                border-bottom: 3px solid rgb(0, 22, 150);
+                box-shadow: 0 0 0 0 rgba(3, 56, 189, 0.7);
+                animation: peffect 1.72s infinite cubic-bezier(0.66, 0, 0, 1);
+                }
+                .table{
+                    border: 1px solid forestgreen;
+                    border-radius: 3px;
+                }
+                @keyframes peffect {
+                to{
+                    box-shadow: 0 0 0 30px rgb(255, 249, 230, 0);
+                }
+            }
+        </style>
+    </head>
+    <body>
 
-You can use the [editor on GitHub](https://github.com/ROCKSTAR011/hellow/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+        <section class="container">
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+            <div class="box">
 
-### Markdown
+                <div class="card">HELLO <hr>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+                    <table border="5" class="table" align="center">
+                        <tr>
+                            <th class="table">HELLO</th>
+                            <th class="table">HOW</th>
+                            <th class="table">ARE</th>
+                            <th class="table">YOU</th>
+                        </tr>
+                        <tr>
+                            <td colspan="2">I AM R</td>
+                            <td>WHO</td>
+                            <td>YOU?</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">I AM R</td>
+                            <td>WHO</td>
+                            <td>YOU?</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">I AM R</td>
+                            <td>WHO</td>
+                            <td>YOU?</td>
+                        </tr>
+                    </table>
 
-```markdown
-Syntax highlighted code block
+                    <hr>
 
-# Header 1
-## Header 2
-### Header 3
+                    <table border="5" class="table" align="center">
+                        <tr>
+                            <th class="table">HELLO</th>
+                            <th class="table">HOW</th>
+                            <th class="table">ARE</th>
+                            <th class="table">YOU</th>
+                        </tr>
+                        <tr>
+                            <td colspan="2">I AM R</td>
+                            <td>WHO</td>
+                            <td>YOU?</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">I AM R</td>
+                            <td>WHO</td>
+                            <td>YOU?</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">I AM R</td>
+                            <td>WHO</td>
+                            <td>YOU?</td>
+                        </tr>
+                    </table>
 
-- Bulleted
-- List
+                </div>
 
-1. Numbered
-2. List
+                <div class="card">HOW <hr> </div>
 
-**Bold** and _Italic_ and `Code` text
+                <div class="card">ARE <hr> </div>
 
-[Link](url) and ![Image](src)
-```
+                <div class="card">YOU <hr> </div>
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+                <div class="card">AND <hr> </div>
 
-### Jekyll Themes
+                <div class="card">YOU <hr> </div>
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ROCKSTAR011/hellow/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+            </div>
+        </section>
+    </body>
+</html>
