@@ -76,8 +76,19 @@
                     </table>
 
                     <hr>
+                    
+                </div>
 
-                    <table border="5" class="table" align="center">
+                <div class="card">HOW <hr> </div>
+
+                <div class="card">ARE <hr> </div>
+
+                <div class="card">YOU <hr> </div>
+
+                <div class="card">AND <hr> </div>
+
+                <div class="card">
+                <table border="5" class="table" align="center">
                         <tr>
                             <th class="table">HELLO</th>
                             <th class="table">HOW</th>
@@ -100,18 +111,7 @@
                             <td>YOU?</td>
                         </tr>
                     </table>
-
-                </div>
-
-                <div class="card">HOW <hr> </div>
-
-                <div class="card">ARE <hr> </div>
-
-                <div class="card">YOU <hr> </div>
-
-                <div class="card">AND <hr> </div>
-
-                <div class="card">YOU <hr> </div>
+                <hr> </div>
 
             </div>
         </section>
